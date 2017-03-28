@@ -28,3 +28,23 @@ I'm adding supporting links to this interesting Poynter project.
 * Jan 28, 2017 - Zeldman - [Digital Newspaper Design Challenge: A Report from Poynter, Part 1](http://www.zeldman.com/2017/01/28/digital-newspaper-design-challenge-report-poynter-part-1/)
 * Feb 6, 2017 - Zeldman - [Authoritative, Readable, Branded: Report from Poynter Design Challenge, Part 2](http://www.zeldman.com/2017/02/06/readable-branded-design)
 * Feb 14, 2017 - moxiesozo.com - [Challenging Designers to Create Better Reading Experiences Online](https://moxiesozo.com/2017/02/14/roger-black-challenging-designers-create-better-reading-experiences-online)
+
+
+### March 2017 formatting changes
+
+I added more test text to the article body in index.html.
+
+I made small changes to style.css that satisfy my interests.
+
+My test page:
+
+<http://testcode.soupmode.com/zeldman/poynter-style-guide-2017/index.html>
+
+On a desktop/laptopl computer, the original page fount at:
+
+<https://studiozeldman.github.io/poynter-style-guide-2017>
+
+causes a horizontal scrollbar to appear, especially when resizing the browser to a smaller size. A media query accounts for this when viewing the page on a smaller device, but I don't want to see the horizontal scrollbar on any screen.
+
+For `div.content1` in style.css, I changed `width: 600px;` to `max-width: 600px;` and I added `width: 100%;`.`
+

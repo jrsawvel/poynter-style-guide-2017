@@ -46,5 +46,34 @@ On a desktop/laptopl computer, the original page fount at:
 
 causes a horizontal scrollbar to appear, especially when resizing the browser to a smaller size. A media query accounts for this when viewing the page on a smaller device, but I don't want to see the horizontal scrollbar on any screen.
 
-For `div.content1` in style.css, I changed `width: 600px;` to `max-width: 600px;` and I added `width: 100%;`.`
+For `div.content1` in style.css, I changed `width: 600px;` to `max-width: 600px;` and I added `width: 100%;`
+
+Also, the originall CSS contained the following:
+
+    @media only screen and (max-width: 1280px) {
+	      h1 {
+	          width: 1717.75px;
+        }
+    }
+    
+I changed that one line to `max-width: 1717.75px;`.
+
+A couple other changes that I have made thus far of note:
+
+* changed background color from `#333` to `#222`
+* changed font-family in the body tag to sans-serif
+* increased the font size within paragraph tags to 21px
+
+It's great to see that some people are focused on improving the desgin of the single web article page for media orgs. Some interesting ideas were advanced at the Poynter Design Challenge that cover more than text on a web page.
+
+I'll continue to test Zeldman Studio's web article design concepts. I want to make a page that uses system fonts. I'll create test pages with images. I'll try to use all of the ideas suggested in the template.
+
+My related projects:
+
+* [Manifesto for Lightweight Web Pages](http://boghop.com/manifesto-for-lightweight-web-pages.html) - *My screed against web page bloat*
+* GitHub - [Article-Designs](https://github.com/jrsawvel/Article-Designs)
+* GitHub - [Article-Preview](https://github.com/jrsawvel/Article-Preview)
+* wren.soupmode.com - [Links to Font Testing Articles](http://wren.soupmode.com/font-testing-articles.html)
+* <http://birdbrainsbrewing.com> - built with my Wren static site generator
+* <http://boghop.com> - also built with my Wren SSG
 

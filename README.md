@@ -27,4 +27,4 @@ I'm adding supporting links to this interesting Poynter project.
 * Dec 19 2016 - Zeldman - [To Save Real News](http://www.zeldman.com/2016/12/19/save-real-news)
 * Jan 28, 2017 - Zeldman - [Digital Newspaper Design Challenge: A Report from Poynter, Part 1](http://www.zeldman.com/2017/01/28/digital-newspaper-design-challenge-report-poynter-part-1/)
 * Feb 6, 2017 - Zeldman - [Authoritative, Readable, Branded: Report from Poynter Design Challenge, Part 2](http://www.zeldman.com/2017/02/06/readable-branded-design)
-
+* Feb 14, 2017 - moxiesozo.com - [Challenging Designers to Create Better Reading Experiences Online](https://moxiesozo.com/2017/02/14/roger-black-challenging-designers-create-better-reading-experiences-online)
